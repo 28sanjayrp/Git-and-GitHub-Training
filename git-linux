@@ -1,0 +1,145 @@
+    1  yum install git -y
+    2  git version
+    3  git config -l
+    4  git config --global user.name "28sanjayrp"
+    5  git config -l
+    6  git config --global user.email "sanjayrp8123@gmail.com"
+    7  git config -l
+    8  yun install vim
+    9  git config --system core.editor vim
+   10  git status
+   11  mkdir NewProject
+   12  cd NewProject
+   13  la
+   14  ls
+   15  ls -la
+   16  git init
+   17  ls -la
+   18  touch firstfile
+   19  vim firstfile
+   20  git status
+   21  git add firstfile
+   22  git status
+   23  git rm --cached firstfile
+   24  git status
+   25  git add firstfile
+   26  git status
+   27  git commit firstfile -m "this is first commit"
+   28  git status
+   29  git log --oneline
+   30  git log
+   31  touch secondfile
+   32  ls
+   33  git statu
+   34  git status
+   35  git commit secondfile
+   36  git add secondfile
+   37  git status
+   38  git restore --staged secondfilr
+   39  git restore --staged secondfile
+   40  git status
+   41  git add secondfile
+   42  git status
+   43  git commit secondfile
+   44  git status
+   45  git log
+   46  touch thirdfile 
+   47  touch fourtfile
+   48  git status
+   49  git add thirdfile fourtfile
+   50  git status
+   51  git commit .
+   52  git status
+   53  git log
+   54  git branch
+   55  history
+   56  vim secondfile
+   57  vim thirdfile
+   58  vim fourtfile
+   59  cat firstfile
+   60  cat secondfile
+   61  cat thirdfile
+   62  cat fourtfile
+   63  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   64  git push -u origin master
+   65  git push -u origin master
+   66  https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   67  [root@ip-172-31-91-244 NewProject]# 
+   68  https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   69  [root@ip-172-31-91-244 NewProject]# 
+   70  git push -u origin  master
+   71  git branch -M main
+   72  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   73  git push -u origin main
+   74  git files
+   75  git ls-files
+   76  git push add origin
+   77  git push add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   78  git push add origin
+   79  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   80  git branch -M main
+   81  git push -u origin main
+   82  git push -u origin main
+   83  git branchs
+   84  git branch
+   85  git branch
+   86  git checkout
+   87  git branch -l
+   88  git checkout master
+   89  git checkout master
+   90  git branch master
+   91  git branch
+   92  git checkout master
+   93  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+   94  git push -u origin master
+   95  clear
+   96  ls
+   97  git status
+   98  git add secondfile
+   99  git status
+  100  git add fourtfile thirdfile
+  101  git status
+  102  git commit secondfile -m "first commit"
+  103  git commit thirdfile -m "first commit"
+  104  git commit fourtfile -m "first commit"
+  105  git status
+  106  git branch
+  107  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
+  108  git push -u origin master
+  109  git push
+  110  git pull
+  111  git branch
+  112  git push -u origin master
+  113  git push -u origin master
+  114  ls
+  115  git checkout main
+  116  git branch
+  117  touch file1
+  118  git push -u origin main
+  119  git push
+  120  ls
+  121  git status
+  122  git add file 1
+  123  git add file1
+  124  gir commit file1 -m "file1 first commit"
+  125  git commit file1 -m "file1 first commit"
+  126  git status
+  127  git push -u origin master
+  128  git status
+  129  git branch
+  130  git checkout master
+  131  git push
+  132  git push -u origin
+  133  git push -u origin master
+  134  git chechout main
+  135  git checkout main
+  136  git status
+  137  git push -u origin main
+  138  git checkout master
+  139  ls
+  140  git pull
+  141  ls
+  142  git log --oneline
+  143  git checkout main
+  144  git log --oneline
+  145  history
