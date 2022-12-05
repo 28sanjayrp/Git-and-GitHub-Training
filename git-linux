@@ -10,7 +10,6 @@
    10  git status
    11  mkdir NewProject
    12  cd NewProject
-   13  la
    14  ls
    15  ls -la
    16  git init
@@ -30,7 +29,6 @@
    30  git log
    31  touch secondfile
    32  ls
-   33  git statu
    34  git status
    35  git commit secondfile
    36  git add secondfile
@@ -62,15 +60,13 @@
    62  cat fourtfile
    63  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
    64  git push -u origin master
-   65  git push -u origin master
-   66  https://github.com/28sanjayrp/Git-and-GitHub-Training.git
-   67  [root@ip-172-31-91-244 NewProject]# 
-   68  https://github.com/28sanjayrp/Git-and-GitHub-Training.git
-   69  [root@ip-172-31-91-244 NewProject]# 
-   70  git push -u origin  master
+   username: 28sanjayrp
+   password: github-tokan(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)
    71  git branch -M main
    72  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
    73  git push -u origin main
+   username: 28sanjayrp
+   password: github-tokan(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)
    74  git files
    75  git ls-files
    76  git push add origin
@@ -79,7 +75,8 @@
    79  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
    80  git branch -M main
    81  git push -u origin main
-   82  git push -u origin main
+   username: 28sanjayrp
+   password: github-tokan(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)
    83  git branchs
    84  git branch
    85  git branch
@@ -92,6 +89,8 @@
    92  git checkout master
    93  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
    94  git push -u origin master
+   username: 28sanjayrp
+   password: github-tokan(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)
    95  clear
    96  ls
    97  git status
@@ -106,16 +105,21 @@
   106  git branch
   107  git remote add origin https://github.com/28sanjayrp/Git-and-GitHub-Training.git
   108  git push -u origin master
+  username: 28sanjayrp
+   password: github-tokan(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)
   109  git push
   110  git pull
   111  git branch
   112  git push -u origin master
-  113  git push -u origin master
+    username: 28sanjayrp
+   password: github-tokan(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)
   114  ls
   115  git checkout main
   116  git branch
   117  touch file1
   118  git push -u origin main
+  username: 28sanjayrp
+   password: github-tokan(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)
   119  git push
   120  ls
   121  git status
@@ -125,16 +129,21 @@
   125  git commit file1 -m "file1 first commit"
   126  git status
   127  git push -u origin master
+  username: 28sanjayrp
+   password: github-tokan(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)
   128  git status
   129  git branch
   130  git checkout master
   131  git push
-  132  git push -u origin
   133  git push -u origin master
+  username: 28sanjayrp
+   password: github-tokan(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)
   134  git chechout main
   135  git checkout main
   136  git status
   137  git push -u origin main
+  username: 28sanjayrp
+   password: github-tokan(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)
   138  git checkout master
   139  ls
   140  git pull
