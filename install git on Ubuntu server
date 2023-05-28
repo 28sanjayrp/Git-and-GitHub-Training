@@ -1,0 +1,8 @@
+step 1: verify whether the git is already installed or not -- use the below commands
+--->$sudo su
+---> $git --version
+
+--> if you don't get any result from above command then use the below command to install git:
+--> $sudo apt-get update
+--> $sudo apt-get install git -y
+--> $git --version
