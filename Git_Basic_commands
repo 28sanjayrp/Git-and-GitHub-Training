@@ -1,0 +1,231 @@
+>Installation of Git on Linux
+
+>Verifying that the Git is installed or not Use below command to check-
+	>$git --version
+- if it is installed it will give a "git version <version>"
+- if you dont get any resultsfor git --version comand follow the below steps:
+
+>Installing the latest git version 
+	>before installing the git make sure that you are switched to a super user/root user
+	>use $sudo su command to switch to super user.
+	>make sure that all your packages are updated.
+
+Note:if you are using the linux server then use - $yum update 
+Note:if you are using the ubuntu server then use - $sudo apt-get update	
+
+*Note: if you are using the linux server, then to install any package use - $yum install <package_name> -y 
+	for ex - $yum install git -y
+
+*Note: if you are using the ubuntu server, then tio install ay package use - $sudo apt-get install <package_name> -y
+	for ex - $sudo apt-get install git -y
+
+- To varify the git installation - use $git --version
+
+>Creating and cloning GitHub Repository:
+
+--- to create sure that you have your GitHub account before creating github repo.
+
+step 1: Create a new GitHub repository.
+
+--1.Open a browser, go to github.com, and log in to your account.
+--2.Click on the + icon from the upper-right corner of the page, and select New repository from the drop-down menu.
+--3.Enter sample repository name in the Repository field. Entering a Description is optional.
+--4.Choose the repository type as Public.
+--5.to include a README file for the repository select initialize this repository with a README.
+--6.click on the create repository button.
+
+>What is READMe file do?
+--The Readme file is often the first file that the users read.
+  It is a text file that contains information for the user 
+  about the software, project, code, or game, or 
+  it might contain instructions, help, or details about the files, patches or updates.
+
+--Note: you can also edit and commit the READMe file.
+
+>Upload a file to the repository:
+
+--Go to your Github repository and to add a file to the repository, click on Add file, and then select Create new file
+>>>>Enter the filename as you want (for ex- SampleFile.txt), and add the text what you want in the Edit new file tab.
+>>Next, scroll down to the "Commit New File" section. Write a Commit Message (Example: Create SampleFile.txt) and 
+click on the Commit New File button.
+
+
+>Clone a GitHub repository:
+
+>>what is git cloning?
+-->The git clone command copies an existing Git repository.
+   it copies the remote repository(github) to local repository(computer)
+
+>>1.Open the browser, go to github.com, and login to your account.
+>>2.Open the repository that you want to clone and click on "Code" button.
+>>3.Click on the copy icon to copy the url provided under HTTPS.
+>>4.Open the terminal tab, use the following command to clone the repository.
+----->$git clone <copied url from the repository>
+----->for example : $git clone https://github.com/28sanjayrp/GitProject.git
+>>5.Use the $ls command to check the clone repository:
+---->$ls
+>>6.if you want you can navigate to that repository an check the files inside that repository.
+---->$cd GitProject
+---->$ls -l or $ls -la
+
+
+>Creating a Pull request in Git:
+
+1. create a Fork:
+
+>>what is Fork in Git?
+->Fork is option present in github, A fork creates a completely independent copy of Git repository in your github followed by 
+  your user name. any public repository can be forked by anyone.
+
+> How to create a fork?
+->1. login to github account.
+  2. navigate to the perticular repository that you want to create a fork.
+  3. on the top right corner of the page you can find "Fork" button, to create a fork click on the same.
+---> now the same repository is present in your github account. you can do whatever you want with that repo.
+
+2.Cloning the Forked repo:
+--->1. Go to github open the forked repository.
+--->2. click on the Code button on your repository.
+--->3. Copy the URL from under Clone with HTTPS option.
+--->4. Open the terminal and type following command.
+======> $git clone <copied https url>
+   for example - $git clone https://github.com/28sanjayrp/raushan_simplilearn_repo.git
+---url includes "raushan_simplilearn_repo" which means it is forked from this user.
+
+---> The clone command creates a local git reposiroty from your remote fork on github.
+
+
+>>Navigating to cloned repo:
+in terminal type the below command:
+
+>>$cd raushan_simplilearn_repo
+
+>> to check congigured remote repository(github) for your fork.
+>>>>git remote -v
+----> it will displays the 2 urls (fetch and push)
+
+>>$git remote add upsteram <copied url>
+>>$git remote -v
+
+
+>> push your changes to the github or remote repo:
+
+>after editing or changing has done then push that changes or update to github.
+
+--->1.Use the $git push - command to upload your changes to your remote fork on GitHub.
+-----$git push
+note -it askes username and password of your github provide the same to save or make or update the changes in github.
+username - " your github user name"
+password- "github token"
+
+
+>>create a pull request:
+
+---> to create a pull request go to github and loginto you account.
+---->On the GitHub page of your remote fork, click the "pull request" button .
+---->Wait for the owner to merge or comment on your changes.
+---->either he can merge your changes with his code or suggest for some other changes before merging.
+
+
+
+>>creating branch in git:
+steps to be followed:
+
+step 1:Create a new github repository.
+-->open the browser, go to the github.com and login to your account.
+-->click on the + icon from the upper-right corner og the page, and 
+select "New repository" from the drop-down menu and then create a new repository.
+-->add a repository name you want, click on public radio btn, and check the Add a README file.
+
+
+
+
+step 2: Clone the github repository:
+
+---> once you create or had a github repository, then follow the below steps:
+---->open the specific repository that you want to clone. and ckick on code button,
+	and click on copy icon to copy the url provided under the HTTPS.
+---->now open the terminal tab, and enter the following command
+	->$git clone <copied url>
+
+---->once it done, you will have the copy of your github repo in your local repo(system)
+	on which you can change whatever you want.
+
+step 3: List all the branches in your repository
+
+-->to find list of all the branches in your repository, open the terminal tab, navigate to the perticular directory - 
+$cd <directory_name>
+and enter $git branch - lists all the branches in your repository
+Note: *main - is default branch, which is migrated to local repo from remote repo.
+
+
+step 4: create a new branch
+
+----> run the following command in terminal to create the new branch in your repo.
+--------> $git branch new_branch
+--------> $git branch - lists all the branches/varify the creation of new branch.
+
+--->if you want to rename the existing branch use below command
+------> $git branch -m New_Branch1  - it renames the main branch
+
+
+step 5: Delete the branch:
+
+--->Use the following command to delete the newly created branch:
+syntax---->$git branch -d <branc_name>
+	   >$git branch -d new_branch
+
+
+step 6: switch to new branch 
+
+---> let assume you have created 3 branches namely- Main, Branch1, Branch2
+
+---->by default you are in *main branch, to switch to another branch use the below command
+syntax--> $git checkout <branch_name>
+	  $git checkout Branch1 -- you will switch to Branch1
+ 	  $git checkout Branch2 -- you will switch to Branch2
+	  $git checkout main    -- you will switch to main 
+
+
+Note: you can create new files or edit existing file in each branchs and at the end 
+      commit your changes and make your git tree look clean.
+
+
+**let us creat one file in Branch1
+
+--$git checkout Branch1
+--$touch index.html
+--$vi index.html
+	<html>
+   	   <body>
+              <p> This is a Test HTML file. </p>
+           </body>
+	</html>
+
+add text in the file, Press Esc button and enter :wq to save the file.
+
+-use below commands to update the changes:
+-->$git add index.html
+-->$git commit index.html -m "enter your comment"
+
+-check the status of the new branch;
+---$git status
+note- working tree should be clean.
+
+>> Merging Branches in Git:
+
+step 1: to merge the Branch1 with main branch switch back to the main branch:
+--> use the below command to switch back to the main branch
+----> $git checkout main
+
+step 2: Merge the branches
+---> use the below command to merge the Branch1 to the main branch:
+syntax---->$git merge <branch_name> -> $git merge Branch1
+
+By default merge is - "Fast-forword" type
+
+
+to push the changes to github use the below command:
+--->$git push -u origin Branch1
+
+--> to verify go to te github and check.
