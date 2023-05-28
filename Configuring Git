@@ -1,0 +1,13 @@
+step 1 : Configuring Git with username and email id: use below command 
+syntax to config user name-----> $git config --global user.name "user_name"
+example----> $git config --global user.name "28sanjayrp"
+
+syntax to config user mail ----> $git config --global user.email "usermailID"
+example ----> $git config --global user.email "sanjayrp8123@gmail.com"
+
+step 2: validate or conform the user name nd email id: use below command
+--->$git config --global user.name
+--->$git config --global user.email
+
+step 3: enabling the credentials storage globally: use below command
+--->$git config --global  credential.helper store
