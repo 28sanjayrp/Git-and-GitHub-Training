@@ -1,0 +1,4 @@
+step 1 : verify whether the git is installed - use below command
+-->$git --version
+---> incase you dont get any result for git --version execute the below command
+---> $yum install git -y
