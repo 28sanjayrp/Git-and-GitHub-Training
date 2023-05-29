@@ -1,0 +1,13 @@
+Renaming Files in git:
+Syntax to rename the file - $gir mv <old file name> <new file name>
+
+step 1 : in terminal , execute the $git mv <oldfilename> <new file name>
+--$git mv file1.html index.html
+
+Note: New file name is the file name that was not created before.
+
+step 2: Checking the status if the repo
+$git status
+
+step 3 : commit the changes:
+$git commit -m "file is renamed"
