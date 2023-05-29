@@ -1,0 +1,13 @@
+***what is alias in git and what is the use of it?
+-->Git aliases are a powerful workflow tool that create shortcuts to frequently used Git commands. 
+-->Using Git aliases will make you a faster and more efficient developer.
+
+Creating aliases for git commands:
+$git config --global alias.co checkout ---> Now we can type "co" instead of checkout ie - $git co branch1
+$git config --global alias.br branch   ---> Now we can type "br" instead of branch ie - $git br, $git br branch2
+$git config --global alias.cm commit   ---> "cm" instead of commit  - $git cm file1 -m "comment"
+$git config --global alias.ad add      ---> "ad" instead of add    - $git ad file1
+$git config --global alias.st status   ---> "st" instead of status - $git st
+
+to list all the git aliases :
+---> $git config -l | grep alias 
