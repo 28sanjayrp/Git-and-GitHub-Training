@@ -1,0 +1,13 @@
+**What is git ignore?
+gitignore file tells Git which files to ignore when committing your project to the GitHub repository. 
+gitignore is located in the root directory of your repo.The .gitignore file itself is a plain text document.
+
+--To create a .gitignore file use below command
+$touch .gitignore
+-to ignore README.txt file - $echo "README.txt">>.gitignore
+-to ignore any .java file - $echo "*.java">>.gitignore
+-if you want to ignore any folder for example output - $echo "output/">>.gitignore
+
+
+step 2 : Check the git status, Now if you try to add those files to the git repository it will be ignored.
+$git status
