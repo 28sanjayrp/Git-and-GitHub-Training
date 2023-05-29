@@ -1,0 +1,33 @@
+=>Track the changes in the file:
+
+step 1: update a file from the repository.
+- check the git file status - $git status
+- take any one file and make some changes(add/ remove text) in it - $vi file1.txt
+- save the file and exit - press "esc" - and :wq
+-now again check the status - $git status
+-now you see "changes not staged for commit" - which means file is in unstaged condition
+
+
+step 2: Tracking the changes in the file
+- use $git diff <filename> command to compare the file in the working directory with its last staging area.
+- $git diff file1.txt 
+
+Note: if you added a line then the + statement shows the changes in the file.
+      if you removed a line from the file then the -(minus) statement shows the changes in the file.
+
+step 3: adding the file to staging area:
+- $git add file1.txt --> now the file staged 
+-- use - $git diff --staged file1.txt
+
+-- to view the git commits and compare them -  use below command:
+--$git log --oneline
+
+--use git commit command to commit the changes from staged area to remote repository
+--$git commit file1.txt -m "my commit"
+
+use git push command to push the file to the main or master branch depending on your repository structure.
+-$git push -u origin main or $git push -u origin master
+
+
+
+
