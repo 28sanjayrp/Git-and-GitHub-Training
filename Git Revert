@@ -1,0 +1,10 @@
+The git revert command is a forward-moving 'undo' operation that offers a safe method of undoing changes. 
+Instead of deleting or orphaning commits in the commit history, a revert will create a new commit that inverses 
+the changes specified. Git revert is a safer alternative to git reset in regards to losing work.
+
+--syntax - git revert <commitID>
+it will undo the changes.and it also creates one new commit ID
+
+if we revert the reverted commit ID, then it creates new commit id and the changes are as before.
+
+git reset - will removes the changes permanently it does not create any commit
