@@ -1,0 +1,20 @@
+git Merge
+Merge in Git allows you to join two or more development work created using git branch into a single branch.
+What is git rebase?
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. 
+Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+
+scenario:
+when the master branch is not aware of the changes of the subbranch or child branch, then if we merge thet child branch with 
+master branch then there will be conflict. to resolve that we need to commit to it.
+
+during this the Merge is made - by the 'ort' stratergy.
+this creates one more extra or new commit in the master branch.
+
+Do git rebase when you want to merge the feature ot child branch with master branch to make feature branch
+updated with master branch.
+
+git rebase always do it on feature branch.
+
+the main purpose of rebase is to arrenge the git log history in linear manner.
+$git log --graph --pretty==oneline - to view the grapgical structure of log.
